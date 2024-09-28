@@ -23,7 +23,10 @@
 
 # -快手nlp
 1. 除了bert跟word2vec，还有哪些做文本embedding的方法
-2. 怎么处理样本不平衡，采样，数据增强（有什么方法），损失函数
+2. 怎么处理样本不平衡，采样，数据增强（有什么方法），损失函数  ![image](https://github.com/user-attachments/assets/424886a7-c926-4fdb-a5ca-fbdcdfdb9825)![image](https://github.com/user-attachments/assets/334f75de-4596-4468-a82b-d44075d73265)![image](https://github.com/user-attachments/assets/e993eea5-b532-4315-a277-01ef23a693a3)
+对损失大的，用更大的权重，损失小的用小的权重。
+
+
 3. rnn, lstm。lstm怎么通过门控制解决梯度消失跟梯度爆炸。
 4. 模型融合有什么方法，树GBDT
 5. 用bert有什么缺点
